@@ -1,0 +1,112 @@
+.toplog {
+    background-color: #333;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.toplog .wrapper {
+    display: flex;
+    justify-content: right;
+}
+
+.toplog ul {
+    display: flex;
+}
+.toplog li {
+    padding:  0 15px;
+    line-height: 1;
+}
+.toplog li:nth-child(1) a {
+    color :#5EB69C;
+}
+.toplog li:nth-child(2n) {
+    border-left: 0.5px solid #999999;
+    border-right: 0.5px solid #999999;
+}
+.toplog li a {
+    color: #ffffff;
+    font-size: 14px;
+}
+.toplog li span {
+    color: #fff;
+    vertical-align:middle;
+    margin-right: 4px;
+}
+.footnav {
+    margin-top: 60px;
+}
+.footnav .wrapper {
+    display: flex;
+    padding-top: 60px;
+    border-top: 1px solid #E8E8E8;
+    justify-content: space-between;
+}
+.footnav .wrapper dl {
+    margin-right: 84px;
+}
+.footnav .wrapper dl:nth-child(5) {
+    margin-right: 0;
+}
+.footnav .wrapper dt {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #333333 ;
+}
+.footnav .wrapper dd {
+    margin-bottom: 10.5px;
+}
+.footnav .wrapper dd a {
+    color:#969696;
+    font-size: 16px;
+}
+.footnav .wrapper dd .icon-customer-service {
+    color: #00BE9A;
+}
+.qrcode {
+    display: flex;
+    justify-content: space-between;
+}
+.qrcodetheone {
+    display: flex;
+    margin-left: 55px;
+    flex-direction: column;
+    align-items: center;
+}
+.qrcodetheone img {
+    width: 120px;
+    height: 120px;
+}
+.qrcodetheone span {
+    font-size: 16px;
+    color: #969696;
+    margin-top: 10px;
+}
+.lastbox {
+    margin-top: 100.5px;
+    margin-bottom: 50px;
+}
+.lastbox .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lastbox .wrapper ul {
+    display: flex;
+}
+.lastbox .wrapper li {
+    text-align: center;
+    width: 120px;
+    line-height: 1;
+}
+.lastbox .wrapper li a {
+    color: #969696;
+}
+.lastbox .wrapper li:nth-child(2n) {
+    border-left: 1px solid #969696;
+    border-right: 1px solid #969696;
+}
+.lastbox .wrapper span {
+    color: #969696;
+    margin-top: 15px;
+}
